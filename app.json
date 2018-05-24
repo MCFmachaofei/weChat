@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/template/list-template"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#450f80",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "weChat",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  }
+}
