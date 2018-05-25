@@ -1,0 +1,57 @@
+.detailContainer{
+  display: flex;
+  flex-direction: column;
+}
+.head_img{
+   width:100%;
+  height: 400rpx;
+}
+.avatar_date{
+  padding: 20rpx;
+}
+.avatar_date image{
+  width: 64rpx;
+  height: 64rpx;
+  vertical-align: middle;
+}
+.avatar_date text{
+  font-size: 36rpx;
+  font-weight: 700;
+  margin-left: 20rpx;
+}
+.title{
+  font-size: 40rpx;
+  font-weight: 700;
+  margin-left: 10rpx;
+}
+.share_collection_container{
+position: relative;
+}
+.share_collection{
+float: right;
+  margin-right: 60rpx;
+}
+.share_collection image{
+  width: 90rpx;
+  height: 90rpx;
+  float:right;
+}
+.line{
+  width: 90%;
+  height: 1px;
+ background:#eeeeee;
+  left:5%;
+  top:45rpx;
+  position: absolute;
+  z-index: -1;
+}
+button{
+  width: 260rpx;
+  height: 80rpx;
+}
+.content{
+  font-size: 32rpx;
+  text-indent: 36rpx;
+  line-height: 50rpx;
+  color: #666;
+}

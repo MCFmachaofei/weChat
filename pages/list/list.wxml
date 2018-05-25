@@ -1,7 +1,7 @@
 <!--pages/list/list.wxml-->
 <import src="../template/list-template.wxml"/>
 <view class="listContain">
-  <swiper indicator-dots="true" indicator-color="green" indicator-active-color="pink">
+  <swiper indicator-dots="true" autoplay="true" circular="true" indicator-color="green" indicator-active-color="pink">
       <swiper-item>
         <image src="/images/detail/carousel/01.jpg"></image>
       </swiper-item>
@@ -16,7 +16,7 @@
     </swiper-item>
   </swiper>
   <block wx:for="{{listArr}}" wx:key="{{index}}">
-    <view>
+    <view catchtap="toDetail" data-index="{{index}}">
       <template is="listTemplate" data="{{...item}}"></template>
     </view>
   </block>
